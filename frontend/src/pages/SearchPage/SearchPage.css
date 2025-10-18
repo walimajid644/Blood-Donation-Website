@@ -1,0 +1,25 @@
+.searchpage{
+    margin: 30px 80px 80px 80px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.h2-results{
+margin: 20px 100px;
+font-size: xx-large;
+}
+.searchbar input{
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 290px;
+    padding: 10px 0px 10px 40px;
+    border : 2px solid var(--primary-color);
+    background-image: url('../../Assets/search.png');
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    border-radius: 20px;
+}
+.searchbar{
+    display: flex;
+}

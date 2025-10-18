@@ -1,0 +1,83 @@
+.mainregcontainer{
+    display: flex;
+    margin: 30px;
+}
+.leftregprofile{
+    width: 65vw;
+    /* border: 2px solid; */
+    height: 600px;
+}
+.upperregcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.upperregcon button {
+    padding: 10px;
+    font-size:small;
+    font-weight: 600;
+    background-color: var(--primary-color);
+    color: whitesmoke;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 400px;
+    
+    &:hover{
+        background-color: darkred;
+    }
+}
+.lowerregcon{
+    padding: 30px 100px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.rightregprofile{
+    margin-left: 30px;
+    width: 25vw;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.rightregprofile h3{
+    margin: 20px 79px;
+}
+.update{
+    padding: 5px 30px;
+    display: flex;
+    justify-content: space-between;
+} 
+.update button{
+    padding: 0px 5px;
+    font-weight: 600;
+    background-color: var(--primary-color);
+    color: whitesmoke;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    &:hover{
+        background-color: darkred;
+    }
+}
+.update input{
+    padding: 5px 10px ;
+    border : 2px solid var(--primary-color);
+    border-radius: 20px;
+}
+.rightregprofile table{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.rightregprofile table th{
+    padding-left: 50px;
+}
+.rightregprofile table td{
+    padding: 0px 60px 10px 15px;
+
+}

@@ -1,0 +1,103 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.main {
+  display: flex;
+  background-image: url(../../Assets/homebackground.png);
+  background-size: cover;
+}
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+}
+.leftSide h1 {
+  font-size: 400%;
+  padding-left: 60px;
+}
+.leftSide h2 {
+  font-size: 250%;
+}
+.leftSide button {
+  margin-top: 20px;
+  padding: 15px;
+  font-weight: 600;
+  background-color: var(--primary-color);
+  color: whitesmoke;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.leftSide button:hover{
+  background-color: darkred;
+}
+.rightSide {
+  width: 30vw;
+}
+.tagline {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-top-right-radius: 50px;
+  height: 100px;
+  width: 90vw;
+}
+.tagline button {
+  margin-top: 20px;
+  padding: 10px;
+  font-weight: 600;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.tagline button:hover{
+  background-color: grey;
+  color: white;
+}
+.tagline h3 {
+  padding: 30px;
+}
+
+.containerHeading {
+  margin-left: 100px;
+  margin-top: 90px;
+  font-size: 120%;
+}
+.subContainerSteps {
+  display: flex;
+  padding: 60px 95px;
+}
+.steps {
+  padding: 10px;
+  border-left: 1px solid;
+  width: 100vw;
+}
+.steps img {
+  width: 60px;
+}
+.faq h2 {
+  margin-left: 100px;
+  margin-top: 90px;
+  font-size: 200%;
+}
+.containerfaq {
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+}
+.leftfaq img {
+  width: 40vw;
+}
+.leftfaq {
+  border-right: 1px solid;
+}
+.rightfaq {
+  padding: 25px;
+}

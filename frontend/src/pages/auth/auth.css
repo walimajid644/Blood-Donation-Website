@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins";
+    box-sizing: border-box;
+}
+.login-container{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+align-items: center;
+background-color: var(--primary-color);
+}
+.login-form{
+    width: 35vw;
+    background-color: var(--secondary-color);
+    padding: 20px;   
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+ }
+ .login-form h1{
+    text-align: center;
+    color: var(--forth-color);
+ }
+.form-section {
+   display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 0px;
+ }
+ .form-section button{
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+    color: whitesmoke;
+    background-color: var(--primary-color);
+    cursor: pointer;
+   }
+   .linkbtn button{
+   width: 30vw;
+   padding: 10px 50px;
+}
+ .form-section button:hover{
+   background-color: darkred;
+ }
+ .forgot-pass a{
+    padding: 10px;
+font-size: small;    
+color: var(--forth-color);
+ }
+ .reg-here{
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    font-size: small;  
+    color: var(--forth-color);
+ }
+ .reg-here a{
+    color: var(--forth-color);
+ }

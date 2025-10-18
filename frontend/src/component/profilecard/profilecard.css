@@ -1,0 +1,23 @@
+.profileCard{
+    width: 250px ;
+    height: 250px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cardButton {
+    margin:25px 5px 0px 0px ;
+   width: 100%;
+    padding: 10px;
+    font-size:small;
+    font-weight: 600;
+    background-color: var(--primary-color);
+    color: whitesmoke;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+    &:hover{
+        background-color: darkred;
+    }
+  }

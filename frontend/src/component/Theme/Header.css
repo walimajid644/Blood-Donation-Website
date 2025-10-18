@@ -1,0 +1,35 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.header{
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    justify-content: space-between;
+    padding: 5px 70px;
+}
+.header img {
+width: 150px;
+}
+
+.navtosearchpage{
+    display: flex;
+}
+
+.navtosearchpage button {
+    padding: 10px;
+    font-size:medium;
+    font-weight: 600;
+    background-color: var(--primary-color);
+    color: whitesmoke;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+    &:hover{
+        background-color: darkred;
+    }
+  }
